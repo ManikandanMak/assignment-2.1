@@ -1,0 +1,143 @@
+1)
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class acad
+{
+public static void main (String[] args) throws java.lang.Exception
+{
+int x=1;
+int y=2;
+System.out.println(x+y);
+}
+}
+
+2)
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class acad
+{
+public static void main (String[] args) throws java.lang.Exception
+{
+Scanner sc = new Scanner(System.in);
+int x=sc.nextInt();
+int y=sc.nextInt();
+System.out.println(x+y);
+}
+}
+
+3)
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class acad
+{
+public static void main (String[] args) throws java.lang.Exception
+{
+Scanner sc = new Scanner(System.in);
+int x=sc.nextInt();
+int y=sc.nextInt();
+sum(x,y);
+}
+static void sum(int x,int y)
+{
+System.out.println("First number is:"+x);
+System.out.println("Second number is:"+y);
+System.out.println("Sum is:"x+y);
+}
+}
+
+4)
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class acad
+{
+public static void main (String[] args) throws java.lang.Exception
+{
+Scanner sc = new Scanner(System.in);
+int x=sc.nextInt();
+int y=sc.nextInt();
+int z=0,a=0;
+x=x+1;
+while(x<y)
+{
+if((x%2)==0)
+z++;
+else
+a++;
+x++;
+}
+System.out.println("number of odd "+a+"number of even "+z);
+}
+}
+
+5)
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class acad
+{
+public static void main (String[] args) throws java.lang.Exception
+{
+Scanner sc = new Scanner(System.in);
+int x=sc.nextInt();
+for(int i=1;i<=10;i++)
+{
+System.out.println(x+"X"+i+"="+(x*i));
+}
+}
+}
+
+6)
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class acad
+{
+public static void main (String[] args) throws java.lang.Exception
+{
+Scanner sc = new Scanner(System.in);
+int x=sc.nextInt();
+int y=sc.nextInt();
+sum(x,y);
+sum(x);
+}
+
+static void sum(int x,int y)
+{
+System.out.println("First number is :"+x);
+System.out.println("Second number is :"+y);
+System.out.println(x+y);
+}
+static void sum(int x)
+{
+System.out.println(x);
+}
+}
+
+7) We can overload a method of same return type.
+   It can be done only when the parameters or argument passing differs.
+   
+8)
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class acad
+{
+public static void main (String[] args) throws java.lang.Exception
+{
+int[] x = new int[5];
+for(int i=1;i<=5;i++)
+{
+x[i] = i;
+}
+Arrays.sort(x, Collections.reverseOrder());
+System.out.println(x);
+}
+}
+
+
+
