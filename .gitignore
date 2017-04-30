@@ -70,7 +70,8 @@ else
 a++;
 x++;
 }
-System.out.println("number of odd "+a+"number of even "+z);
+System.out.println("number of odd "+a);
+System.out.println("number of even "+x);
 }
 }
 
